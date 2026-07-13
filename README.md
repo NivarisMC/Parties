@@ -6,7 +6,7 @@ An **AllayMC** plugin that lets players create and manage parties to play togeth
 
 - AllayMC API `0.28.0`
 - Java 21
-- [`proxythread-allay`]([https://github.com/nivarismc/proxythread-allay](https://github.com/NivarisMC/ProxyThread)) library for cross-server synchronization
+- [`ProxyThread`](https://github.com/NivarisMC/ProxyThread) library for cross-server synchronization
 
 ## Installation
 
