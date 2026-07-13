@@ -1,0 +1,15 @@
+server-list:
+  lobby1:
+    socket-port: 19200
+  sw_solo:
+    socket-port: 19201
+  sw_doubles:
+    socket-port: 19202
+  bw_solo:
+    socket-port: 19203
+  bw_doubles:
+    socket-port: 19204
+  bw_squad:
+    socket-port: 19205
+
+current-server: lobby1

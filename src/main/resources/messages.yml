@@ -1,0 +1,79 @@
+command:
+  description: "Party command"
+  not_player: "This command can only be used by players"
+
+error:
+  not_a_player: "This command can only be used by players"
+  player_not_found: "Player non trovato"
+  player_already_in_party: "Il player è già nel party"
+  already_has_party: "Hai già un party"
+  create_cancelled: "Creazione del party cancellata"
+  no_party: "Non hai un party"
+  not_owner: "Non sei l'organizzatore del party"
+  dispose_failed: "Errore su dispose"
+  party_full: "Il party è al completo"
+  party_not_found: "Party non trovato"
+  party_load_failed: "C'è stato un errore durante il caricamento del party"
+  already_invited: "Hai già invitato questo giocatore. Attendi che l'invito venga accettato o rifiutato"
+  decode_data_socket: "Data socket error"
+
+party:
+  create:
+    success: "§a§l∲ Hai creato il party"
+  dispose:
+    success: "§a§l∲ Party eliminato con successo"
+    delete: "§a§l∲ Hai eliminato il party"
+    broadcast: "§c§l∲ Il party è stato sciolto"
+  invite:
+    success: "§a§l∲ Invito al party avvenuto con successo"
+    success_to_player: "§a§l∲ Hai invitato {0} nel party"
+    received: "§6§l∲ {0}§a ti ha invitato nel party di §6{1}"
+  accept:
+    success: "§a§l∲ Hai accettato l'invito di {0} nel party"
+    form_success: "§a§l∲ Hai accettato l'invito al party di {0}"
+  reject:
+    success: "§a§l∲ Hai rifiutato l'invito al party"
+    form_success: "§a§l∲ Hai rifiutato l'invito al party di {0}"
+  quit:
+    success: "§a§l∲ Sei uscito dal party"
+  kick:
+    success: "§a§l∲ Hai rimosso {0} dal party"
+    target: "§c§l∳ Sei stato rimosso dal party"
+    broadcast: "§c{0} è stato rimosso dal party"
+  join:
+    broadcast: "§6§l∲ {0}§a è entrato nel party"
+  leave:
+    broadcast: "§c{0} è uscito dal party"
+
+form:
+  party:
+    title: "Party"
+  manage:
+    title: "Gestisci il Party"
+  invitations:
+    title: "Inviti"
+  invitation_action:
+    title: "Invitation by {0}"
+  manage_players:
+    title: "Gestisci giocatori"
+  invite_player:
+    title: "Invita un giocatore"
+
+button:
+  create_party: "Crea un party"
+  view_invitations: "Visualizza inviti: {0}"
+  manage_players: "Gestisci giocatori ({0})"
+  invite: "Invita"
+  dispose: "Elimina"
+  leave: "Esci"
+  accept: "Accetta"
+  reject: "Rifiuta"
+
+label:
+  party_leader: "\n§cLeader del party"
+
+input:
+  player_name: "Nome del giocatore"
+
+dropdown:
+  select_player: "Seleziona giocatore"
